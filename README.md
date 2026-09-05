@@ -30,5 +30,11 @@
 
 <!-- PAPERS_START -->
 
-## 2026-09-05
+## 2026-09-06
+
+## Diffusion Models
+
+| 标题 | 评分 | Gemini 摘要 | 评分理由 | 原始摘要 |
+|------|------|-------------|----------|----------|
+| **[Conditioning Degenerate Diffusion Models](https://arxiv.org/abs/2609.04090v1)** | ⭐ 78/100 | 利用因果最优传输解决退化扩散模型引导问题 | 理论严谨且具有创新性，但应用场景相对垂直。 | <details><summary>展开</summary>Current conditioned generative models heavily rely on score functions for guidance during training. When the generative model is a diffusion process with a singular diffusion coefficient and the underlying (conditional) densities either do not exist or are not smooth, we use causal optimal transport to define \emph{approximate} loss functions that identify a minimum-entropy control for guidance under minimal assumptions. Our approach relies on causal optimal transport and its characterization through the predictable representation property of (conditioned) diffusion processes whose associated martingale problem is well posed, à la Üstünel.</details> |
 
