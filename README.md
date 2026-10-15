@@ -30,5 +30,11 @@
 
 <!-- PAPERS_START -->
 
-## 2026-10-15
+## 2026-10-16
+
+## Natural Language Processing
+
+| 标题 | 评分 | Gemini 摘要 | 评分理由 | 原始摘要 |
+|------|------|-------------|----------|----------|
+| **[When Occupation-derived Skills Don't Help: On the Limits of Skill-Augmented Career Path Prediction](https://arxiv.org/abs/2610.20186v1)** | ⭐ 75/100 | 揭示显式技能表示对职业预测无显著增益 | 选题新颖且实验严谨，但效用和影响力相对有限 | <details><summary>展开</summary>Skills are widely assumed to play a central role in career transitions, motivating their use in career path prediction (CPP) systems. In this work, we critically examine whether explicit skill representations provide complementary signal beyond text-based job representations. We evaluate multiple strategies for incorporating skills into CPP models, including score fusion and neural architectures, under two conditions: predicted skills and ground-truth ESCO annotations. Surprisingly, across two benchmark datasets, none of these settings yield substantial improvements over strong text-only baselines. Even when using ground-truth skills, gains remain marginal and inconsistent. Through detailed analysis, we identify key factors underlying this result: high redundancy between textual and skill representations, limited discriminative power of ESCO's taxonomy, and representational collapse in skill embeddings. Furthermore, we find that skill prediction difficulty correlates with overall sample difficulty, limiting the potential for complementary signals. Our findings challenge the common assumption that explicit skill modeling inherently benefits career prediction and suggest that dense text representations already capture most skill-relevant information.</details> |
 
