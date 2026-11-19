@@ -30,5 +30,11 @@
 
 <!-- PAPERS_START -->
 
-## 2026-11-18
+## 2026-11-19
+
+## Computer Vision
+
+| 标题 | 评分 | Gemini 摘要 | 评分理由 | 原始摘要 |
+|------|------|-------------|----------|----------|
+| **[Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather](https://arxiv.org/abs/2611.22669v1)** | ⭐ 78/100 | 提出首个RGB、热成像与激光雷达三模态驾驶世界模型 | 多传感器联合预测在恶劣天气下表现优异，方法严谨。 | <details><summary>展开</summary>Driving world models forecast what a vehicle's sensors will record next. Most forecast camera video and some add LiDAR, but thermal cameras, which still see in darkness and some adverse weather, are rarely a forecast target, and to our knowledge no world model forecasts all three sensors. We study joint forecasting of RGB, thermal, and LiDAR on real adverse-weather sequences of the DSERT-RoLL dataset. We post-train a pretrained video world model for each sensor and represent LiDAR as a depth video aligned with the RGB camera, with densification and encoding chosen by what the model's video tokenizer can reconstruct. A tri-sensor model sees all three sensors as one video. We score LiDAR in meters against measured returns and compare against persistence baselines passed through the same tokenizer as the model. With this matching, an apparent loss of the thermal model to persistence in fog disappears. On all 58 validation sequences in six weather conditions, post-trained RGB and thermal forecasts beat compression-matched persistence. Joint training lowers the LiDAR error at 2s by 2.1m at a small cost in camera fidelity, and only the tri-sensor model's LiDAR forecasts beat persistence in mean error. Blanking one sensor degrades the forecasts of the others more in snow than in fog.</details> |
 
